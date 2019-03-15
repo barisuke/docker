@@ -29,3 +29,15 @@ Starting test_mysql_db_1 ... done
 $ docker-compose -f mysql-docker-compose.yml stop
 Stopping test_mysql_db_1 ... done
 ```
+
+
+# レポジトリ中のファイル一覧
+
+### mysql-docker-compose.yml
+
+mysql環境を構築する
+
+hostOSからmysqlにアクセスする場合は以下を実行する
+```
+$ mysql -h127.0.0.1 -utest -ptest
+```
